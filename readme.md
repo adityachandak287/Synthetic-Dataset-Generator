@@ -76,16 +76,16 @@ python generate_aadhar_med.py
 python generate_aadhar_small.py
 ```
 ### Run the following scripts to create synthetic Aadhaar Card dataset:
-* [generate_aadhar.py](generate_aadhar.py) to generate Aadhar structured images with the following types of Aadhar placed on the image:
-   * [Big](generate_aadhar_big.py) / [Electronic](generate_aadhar_electronic.py)
-   * [Medium](generate_aadhar_med.py) (Bottom)
-   * [Small](generate_aadhar_small.py) (Back)
+* [generate_aadhar.py](aadhar/generate_aadhar.py) to generate Aadhar structured images with the following types of Aadhar placed on the image:
+   * [Big](aadhar/generate_aadhar_big.py) / [Electronic](generate_aadhar_electronic.py)
+   * [Medium](aadhar/generate_aadhar_med.py) (Bottom)
+   * [Small](aadhar/generate_aadhar_small.py) (Back)
 
-* [generate_aadhar_types.py](generate_aadhar_types.py) to create images containing only one of the aadhar region types
+* [generate_aadhar_types.py](aadhar/generate_aadhar_types.py) to create images containing only one of the aadhar region types
 
-* [generate_random_mixed.py](generate_random_mixed.py) to create images with randomly selected aadhar region types placed randomly
+* [generate_random_mixed.py](aadhar/generate_random_mixed.py) to create images with randomly selected aadhar region types placed randomly
 
-* [generate_back_patch.py](generate_back_patch.py) to create back aadhar region type placed randomly on an image
+* [generate_back_patch.py](aadhar/generate_back_patch.py) to create back aadhar region type placed randomly on an image
 
 ### To toggle random text being placed on the image comment out the following part from the scripts:
 ```python
