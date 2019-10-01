@@ -1,5 +1,5 @@
 # Synthetic Image Data Generation CLI
-This tool generates images for training deep learning models. Annotations are created in YOLO format.
+This tool generates images for training deep learning models. Annotations are auto-generated in YOLO format.
 
 [Readme](aadhar/readme_aadhar.md) for [Aadhar Data Generation Tool](aadhar).
 ## Command Line Arguments:
@@ -43,7 +43,7 @@ This tool generates images for training deep learning models. Annotations are cr
    Example:
 
    ```python
-   max_w, max_h = 1050, 1485 #To set fixed width and height
+   max_w, max_h = 1920, 1080 #To set fixed width and height
    
    max_w, max_h = random.choice(max_sizes), random.choice(max_sizes) #To choose width and height randomly from max_sizes list)
    ```
